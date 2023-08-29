@@ -1,0 +1,64 @@
+html {
+        height: 100%;
+        width: 100%;
+      }
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+      }
+      .main{
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .nobita{
+        filter: drop-shadow(3px 3px 3px black);
+      }
+      .doremon{
+        filter: drop-shadow(3px 3px 3px black);
+      }
+      .Shizuka{
+        filter: drop-shadow(3px 3px 3px black);
+       
+      }
+      .hidden{
+        display: none;
+      }
+      .button{
+       display: flex;
+        /* font-size: x-large;
+        font-weight: bolder; */
+        justify-content: space-between;
+        top:40px;
+        width: 100vw;
+        /* height: 100vh; */
+        position: absolute;
+        top: 30px;
+        
+      }
+      button{
+        width: 15vw;
+        height: 10vh;
+        border: none;
+        border-radius: 55px;
+         font-size: x-large;
+        font-weight: bolder;
+        cursor:pointer;
+      }
+      button:hover{
+        background-color:#4db2ff;
+        color: rgb(0, 0, 0);
+      }
+      /* a:hover{ */
+        /* transform: scale(2px); */
+      /* } */
